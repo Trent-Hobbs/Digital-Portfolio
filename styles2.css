@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background: linear-gradient(90deg, #080808, #070722);
     color: white;
     height: 100%;
     min-height: 100%;
@@ -30,8 +30,8 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{
-    width: 140px;
+.container .logo img{
+    width: 60px;
 }
 nav ul li{
     display: inline-block;
@@ -39,7 +39,7 @@ nav ul li{
     margin: 10px 30px;
 }
 nav ul li a{
-    color: hsl(351, 100%, 35%);
+    color: hsl(268, 100%, 50%);
     text-decoration: none;
     font-size: 24px;
     position: relative;
@@ -49,7 +49,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: hsl(351, 97%, 25%);
+    background: hsl(268, 100%, 50%);
     position: absolute;
     left: 0;
     bottom: -6px;   
@@ -67,7 +67,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: hsl(351, 100%, 35%);
+    color: hsl(268, 100%, 50%);
 }
 /*-------------------------------About------------------------------*/
 #about{
@@ -109,7 +109,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: hsl(351, 100%, 40%);
+    background: hsl(268, 100%, 50%);
     position: absolute;
     left: 0;
     bottom: -6px;   
@@ -129,7 +129,7 @@ nav ul li a:hover::after{
 
 }
 .tab-contents ul li span{
-    color: hsl(351, 78%, 36%);
+    color: hsl(268, 100%, 50%);
     font-size: 18px;
     font-style: normal;
 }
@@ -174,7 +174,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: hsl(351, 97%, 25%);
+    background: hsl(268, 100%, 30%);
     transform: translateY(-10px);
 }
 /*-------------------------------Portfolio------------------------------*/
@@ -202,7 +202,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.6), hsl(351, 96%, 32%));
+    background: linear-gradient(rgba(0,0,0,0.6), hsl(268, 100%, 30%));
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -225,7 +225,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: hsl(351, 96%, 32%);
+    color: hsl(268, 100%, 30%);
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -245,7 +245,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid hsl(351, 97%, 25%);
+    border: 1px solid hsl(268, 100%, 50%);
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -253,7 +253,7 @@ nav ul li a:hover::after{
     transition: background 0.5s;
 }
 .btn:hover{
-    background: hsl(351, 97%, 25%);
+    background: hsl(268, 100%, 50%);
 }
 /*-------------------------------Contact------------------------------*/
 .contact-left{
@@ -266,7 +266,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: hsl(351, 97%, 25%);
+    color: hsl(268, 100%, 50%);
     margin-right: 15px;
     font-size: 25px;
 }
@@ -282,12 +282,12 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: hsl(351, 97%, 25%);
+    color: hsl(268, 100%, 50%);
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: hsl(351, 96%, 32%);
+    background: hsl(268, 100%, 30%);
 }
 .contact-right form{
     width: 100%;
@@ -365,7 +365,7 @@ nav .fa-solid{
         margin-right: -30px;
     }
     nav ul{
-        background: linear-gradient( hsl(351, 96%, 32%), #080808);
+        background: linear-gradient( hsl(268, 100%, 30%), #080808);
         position: fixed;
         top: 0;
         right: -400px;
